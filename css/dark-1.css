@@ -1,7 +1,7 @@
 body {
 	width: 393px;
 	height: 852px;
-	background-image: url("/img/dark-before.png");
+	background-image: url("img/dark-before.png");
 	background-size: cover;
 }
 

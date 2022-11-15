@@ -1,7 +1,7 @@
 body {
 	width: 393px;
 	height: 852px;
-	background-image: url("/img/six-img.png");
+	background-image: url("img/six-img.png");
 	background-size: cover;
 }
 

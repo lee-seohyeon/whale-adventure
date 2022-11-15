@@ -2,7 +2,7 @@ body {
 	width: 393px;
 	height: 852px;
 	background: linear-gradient(180deg, #1c3c6b 65.38%, #186b9b 100%);
-	background-image: url("/img/firstpage.png");
+	background-image: url("img/firstpage.png");
 	background-size: cover;
 }
 
