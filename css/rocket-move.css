@@ -38,8 +38,11 @@ html {
 }
 
 .set-move3{
-    transform: rotate(180deg);
     transition-delay: 1s;
     transition: all 1s linear;
-    transform: translate(400px, -200px);
+    /* animation-fill-mode: backwards; */
+    animation-name: goright;
+    /* transform: rotate(180deg); */
+    transform: translate(400px, -700px);
 }
+

@@ -65,7 +65,7 @@ html {
 	margin-top: 40px;
 }
 
-.set-move {
+/* .set-move {
     transition: all 1s linear;
 	transform: translate(0px, 300px);
 
@@ -73,7 +73,7 @@ html {
 	transform: rotate(90deg);
 	transition-delay: 2s;
 	transform: translate(300px, 0px);
-}
+} */
 /* 전환 효과 */
 body {
 	animation: fadein 1s;

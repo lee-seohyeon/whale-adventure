@@ -20,26 +20,22 @@ window.onload = () => {
 	console.log("will be moved");
 	const css = document.getElementById("div4");
 	css.className = "set-move";
+
+    setTimeout(() => {
+        console.log("moved2")
+        const css = document.getElementById("div4");
+        css.className = "set-move2";
+    
+        // div4.style.marginTop='128px';
+	}, 1000);
+
+    setTimeout(() => {
+        console.log("moved3")
+        const css = document.getElementById("div4");
+        css.className = "set-move3";
+	}, 2100);
+    
+     setTimeout("location.href='dark-1.html'",3500);
 };
 
-const a = setInterval(move2,500);
 
-
-function move2(){
-    clearInterval(a);
-    console.log("moved2")
-    const css = document.getElementById("div4");
-	css.className = "set-move2";
-    // setTimeout("location.href='fff.html'",2000);
-}
-
-const b = setInterval(move3,2000);
-
-function move3(){
-    clearInterval(b);
-    console.log("moved3")
-    const css = document.getElementById("div4");
-	css.className = "set-move3";
-    
-    // setTimeout("location.href='fff.html'",2000);
-}
