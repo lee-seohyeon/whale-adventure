@@ -1,0 +1,45 @@
+body {
+	width: 393px;
+	height: 852px;
+	background-image: url("/img/sixth-background.png");
+	background-size: cover;
+}
+
+html {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+.rocket {
+	width: 119.12px;
+	height: 252.96px;
+	margin-left: 137px;
+	margin-top:408.5px;
+    /* transition: all 2s linear; */
+	/* transform: translate(0px, 300px); */
+}
+
+.set-move{
+    transition: all 1s linear;
+	transform: translate(0, -150px);
+    
+}
+
+
+.set-move2 {
+    transition-delay: 1s;
+    transition: all 1s linear;
+	transform: rotate(90deg);
+    overflow:hidden;
+}
+
+.set-move3{
+    transform: rotate(180deg);
+    transition-delay: 1s;
+    transition: all 1s linear;
+    transform: translate(400px, -200px);
+}

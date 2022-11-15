@@ -1,0 +1,97 @@
+body {
+	width: 393px;
+	height: 852px;
+	background: linear-gradient(180deg, #1c3c6b 65.38%, #186b9b 100%);
+	background-image: url("/img/firstpage.png");
+	background-size: cover;
+}
+
+html {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.title {
+	width: 239px;
+	height: 60px;
+	margin-left: 77px;
+	margin-top: 546px;
+
+	font-family: "Pretendard";
+	/* font-style: normal; */
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 30px;
+	/* or 136% */
+
+	text-align: center;
+	letter-spacing: -0.02em;
+
+	color: #ffffff;
+}
+
+.sub-text {
+	width: 315px;
+	height: 26px;
+	margin-left: 39px;
+	margin-top: 14px;
+
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: -0.02em;
+
+	color: #f3f3f3;
+}
+
+.start {
+	width: 68px;
+	height: 20px;
+	margin-left: 163px;
+	margin-top: 40px;
+
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+
+	text-align: center;
+	letter-spacing: -0.02em;
+}
+
+.start-text {
+	color: inherit;
+	color: #74d1ff;
+	text-decoration: none;
+}
+
+.start-line {
+	width: 82px;
+	height: 0px;
+	border: 2px solid #74d1ff;
+    position: absolute;
+    margin-left: 156px;
+    border-radius: 2px;
+}
+
+/* 페이드인 전환 */
+body {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+  }
+
+  @keyframes fadein {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }

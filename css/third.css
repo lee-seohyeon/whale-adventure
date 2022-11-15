@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "Pretendard-Regular";
+	src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+		format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	width: 393px;
+	height: 852px;
+	background-image: url("/img/third-img.png");
+	background-size: cover;
+}
+
+html {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.title {
+	color: #ffffff;
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: -0.02em;
+    margin-top: 108px;
+    margin-bottom: 24px;
+}
+
+.bu {
+	width: 170px;
+	height: 56px;
+	background: #ffffff;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 12px;
+	margin-bottom: 12px;
+
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #515151;
+}
+
+.bu-con {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.non-click {
+    background-color: white;
+  }
+  
+  .click {
+    background-color: rgba(194, 207, 255, 1);
+  }
+
+  .ans{
+    text-decoration: none;
+    color: #515151;
+  }
+
+  
+  /* a {
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-timing-function: linear; 
+    transition-delay: .5s; 
+}
+    
+a:hover {
+    font-size: 200%; */
+/* } */
+
+#div4{
+    cursor: pointer;
+}
+
+/* 페이드인 전환 */
+body {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+  }
+
+  @keyframes fadein {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }

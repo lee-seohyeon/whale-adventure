@@ -1,0 +1,92 @@
+body {
+	width: 393px;
+	height: 852px;
+	background-image: url("/img/sixth-background.png");
+	background-size: cover;
+}
+
+html {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.main-text {
+	width: 254px;
+	height: 78px;
+	margin-left: 69px;
+	margin-top: 158px;
+
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.02em;
+
+	color: #ffffff;
+}
+
+.go {
+	width: 123px;
+	height: 20px;
+	margin-left: 135px;
+	margin-top: 28px;
+
+	font-family: "Pretendard";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 20px;
+	/* identical to box height, or 100% */
+
+	text-align: center;
+	letter-spacing: -0.02em;
+
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.ch-icons {
+	width: 122.73px;
+	height: 60px;
+	margin-left: 135px;
+	margin-top: 20px;
+}
+
+.rocket {
+	width: 119.12px;
+	height: 252.96px;
+	margin-left: 137px;
+	margin-top: 40px;
+}
+
+.set-move {
+    transition: all 1s linear;
+	transform: translate(0px, 300px);
+
+
+	transform: rotate(90deg);
+	transition-delay: 2s;
+	transform: translate(300px, 0px);
+}
+/* 전환 효과 */
+body {
+	animation: fadein 1s;
+	-moz-animation: fadein 1s; /* Firefox */
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+	-o-animation: fadein 1s; /* Opera */
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
