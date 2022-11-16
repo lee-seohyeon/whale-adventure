@@ -2,7 +2,6 @@
 
 → 웨일대학 10월 미션
 
----
 
 👤 기획: 조연수
 
@@ -11,6 +10,7 @@
 👤 디자인: 황재원 
 
 👤 개발: 이서현
+
 
 🔗 [https://lee-seohyeon.github.io/whale-adventure/](https://lee-seohyeon.github.io/whale-adventure/)
 
