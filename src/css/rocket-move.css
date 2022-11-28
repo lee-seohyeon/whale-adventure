@@ -13,7 +13,6 @@ html {
 
 
 
-
 .rocket {
 	width: 119.12px;
 	height: 252.96px;
@@ -21,7 +20,9 @@ html {
 	margin-top:408.5px;
     /* transition: all 2s linear; */
 	/* transform: translate(0px, 300px); */
+
 }
+
 
 .set-move{
     transition: all 1s linear;
