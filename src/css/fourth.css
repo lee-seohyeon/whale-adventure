@@ -66,22 +66,22 @@ html {
 
 
 /* 사이드바 옆으로 */
-.go-left {
+/* .go-left { */
     /* animation-delay: 2s; */
-    animation: goleft 3s;
-    -moz-animation: goleft 3s; /* Firefox */
-    -webkit-animation: goleft 3s; /* Safari and Chrome */
-    -o-animation: goleft 3s; /* Opera */
-  }
+    /* animation: goleft 3s;
+    -moz-animation: goleft 3s;
+    -webkit-animation: goleft 3s;
+    -o-animation: goleft 3s;  */
+  /* } */
 
-  @keyframes goleft {
+  /* @keyframes goleft {
       from {
           right: 630px;
       }
       to {
           right: 677px;
       }
-  }
+  } */
 
 
 
